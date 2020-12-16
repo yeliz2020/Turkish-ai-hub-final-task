@@ -53,9 +53,9 @@ if lesson in selected_courses:
   print("you chose \"{}\"course to take the exam".format(lesson))
 
   
-midtermp = int(input("enter midterm point: "))  
-finalp = int(input("enter final point: "))
-projectp =int(input("enter prjoect point: "))
+midtermp = float(input("enter midterm point: "))  
+finalp = float(input("enter final point: "))
+projectp =float(input("enter prjoect point: "))
 
 exams= ["midterm", "final","project"]
 points= [midtermp,finalp, projectp]
